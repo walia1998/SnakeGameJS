@@ -9,11 +9,11 @@ let score = 0;
 let gameStarted = false;
 
 
-const eatSound = new Audio('eatSound.mp3');
+const eatSound = new Audio('./assets/eatSound.mp3');
 eatSound.preload = 'auto';
-const gameOverSound = new Audio('gameOver.mp3');
+const gameOverSound = new Audio('./assets/gameOver.mp3');
 gameOverSound.preload = 'auto';
-const startSound = new Audio('startGame.mp3');
+const startSound = new Audio('./assets/startGame.mp3');
 startSound.preload = 'auto';
 
 function createDiv(className, x, y) {
