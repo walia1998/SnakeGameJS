@@ -1,3 +1,11 @@
+<p align="center">
+  <b style="color: blue;  ">Visitor count</b>
+  <br>
+  <a style="" href="https://github.com/walia1998">
+  <img src="https://profile-counter.glitch.me/wo/count.svg" />
+  </a>
+</p>
+
 Initial setup 
 ```
 const gameArea = document.getElementById('gameArea');
